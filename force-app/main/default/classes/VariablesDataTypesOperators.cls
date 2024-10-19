@@ -307,11 +307,11 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Integer performDivisionAndCast(Double a, Double b) {
         // Perform the division and cast (round down) off the result.
-        Double divisionResult = null;
+        Double divisionResult = a / b;
 
         // Write the code for type casting the divisionResult to an Integer
-        Integer roundedResult = null;
-        return null; // Replace null with the variable you used to store the result
+        Integer roundedResult = (Integer) Math.floor(divisionResult);
+        return roundedResult; // Replace null with the variable you used to store the result
     }
 
     /**
