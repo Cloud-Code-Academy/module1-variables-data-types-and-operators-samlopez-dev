@@ -33,7 +33,7 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Integer addition(Integer a, Integer b) {  
         Integer result;
-        if (a + b == null) {
+        if (a == null || b == null) {
             result = null;
         } else {
             result = a + b;
