@@ -122,7 +122,7 @@ public with sharing class VariablesDataTypesOperators {
         } else {
             result = false;
         }
-        return null; // Replace null with the variable you used to store the result
+        return result; // Replace null with the variable you used to store the result
     }
 
     /**
