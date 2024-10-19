@@ -151,7 +151,9 @@ public with sharing class VariablesDataTypesOperators {
 	 * @return The complete sentence as a single String.
 	 */
 	public static String createSentence(String noun, String verb, String endingPunctuation) {
-		return null; // Replace null with the variable you used to store the result
+        String result;
+        result = 'The ' + noun + ' is ' + verb + endingPunctuation;
+		return result; // Replace null with the variable you used to store the result
 	}
 
     /**
