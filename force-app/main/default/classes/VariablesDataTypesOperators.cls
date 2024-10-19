@@ -18,7 +18,7 @@
  * If statements are not specifically covered in the lesson this module, but review module 2 flow control section for an overview if needed.
  * Resources: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/langCon_apex_if_else.htm 
  * 
- * @author Your Name
+ * @author Sam Lopez
  */
 
 public with sharing class VariablesDataTypesOperators {
